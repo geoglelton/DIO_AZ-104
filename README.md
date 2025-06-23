@@ -1,7 +1,14 @@
-# DIO_AZ-104
+#######################################################################################################################
+##################################################### DIO_AZ-104  #####################################################
+#######################################################################################################################
 
+
+#######################################################################################################################
 Diretório para documentação de aprendizado do bootcamp da AZ-104 oferecido pela dio.me
+#######################################################################################################################
 
+
+#######################################################################################################################
 Módulo 1
 Administração de Identidade
 	1.1 Introdução
@@ -60,7 +67,11 @@ Administração de Identidade
 				Verificar em images/01-05_Implementando o SSPR.png
 	1.3 Configurando Contas de Usuário e de Grupo
 		Apresentação do Laboratório com o conteúdo apresentado até o momento
-	
+#######################################################################################################################
+
+
+
+#######################################################################################################################
 Módulo 2
 Administração de Governança e Conformidade
 	2.1 Configurando Assinaturas do Azure
@@ -109,22 +120,91 @@ Administração de Governança e Conformidade
 			- Laboratório
 			
 	2.2 Configurando o Azure Policy
-		*
+		* Implementar Políticas do Azure
+			Usar serviço para criar, atribuir e gerenciar políticas;
+			Executar avaliações e varreduras em busca de recursos;
+			Vantagens:
+				Imposição e conformidade;
+				Aplicar políticas em escala;
+				Remediação.
+			
+			Implementar Políticas do Azure
+			Verificar em images/02-08_Implementar Políticas do Azure.png
+			
+			Criar políticas do Azure
+			Verificar em images/02-09_Criar Políticas do Azure.png
+			
+			Laboratório
+					
 		
 	2.3 Configurando o Controle de Acesso Baseado em Função
-		*
+		* Laboratório
+#######################################################################################################################
 
+
+#######################################################################################################################
 Módulo 3
 Administração dos Recursos
 	3.1 Configurando Recursos do Azure com Ferramentas
+	Verificar em images/03-01_Portal do Azure.png
+	Verificar em images/03-02a_Azure Cloud Shell.png
+	Verificar em images/03-02b_Azure Cloud Shell.png
+	Verificar em images/03-02c_Azure Cloud Shell.png
+	Verificar em images/03-02d_Azure Cloud Shell.png
+	Verificar em images/03-02e_Azure Cloud Shell.png
+	Verificar em images/03-02f_Azure Cloud Shell.png
+	Verificar em images/03-02g_Azure Cloud Shell.png
+	Verificar em images/03-02h_Azure Cloud Shell.png
+	Verificar em images/03-02i_Azure Cloud Shell.png
+	Verificar em images/03-02j_Azure Cloud Shell.png
+	Laboratório
+	
 	3.2 Configurando Recursos com Modelos ARM
+	Laboratório
+#######################################################################################################################
 
+
+#######################################################################################################################
 Módulo 4
 Administração de Rede Virtual
 	4.1 Configurando Redes Virtuais
+		Planejar Redes Virtuais;
+			Verificar em images/04-01_Planejar Redes Virtuais.png
+			Representação lógica da sua própria rede;
+			Criar uma rede virtual dedicada somente de nuvem privada;
+			Ampliar o data center com redes virtuais de modo seguro;
+			Habilitar cenários de nuvem híbrida.
+		
+		Criar Sub-redes;
+			Verificar em images/04-02_Criar Sub-redes.png
+			Uma rede virtual pode ser segmentada em uma ou mais sub-redes;
+			As sub-redes podem ajudar a aprimorar a segurança, aumentar o desempenho e facilitar o gerenciamento da rede;
+			As sub-redes fornecem divisões lógicas dentro da rede;
+			Cada sub-rede deve ter um intervalo de endereços exclusivos - não pode se sobrepor a outras sub-redes na vnet na assinatura.
+			
+		Planejar o Endereçamento IP.
+			Verificar em images/04-03_Planejar Endereçamento IP.png
+			Endereços IP públicos
+			Verificar em images/04-04a_Criar Endereço IP público.png
+				Disponníel em IPv4 ou IPv6 ou ambos
+				SKU Básico vs Standard
+				Dinamico vs EStatico
+				Microsoft vs roteamento da Internet
+				Verificar em images/04-04b_Criar Endereço IP público.png
+			Endereços IP privados
+			Verificar em images/04-05_Atribuir Endereço IP privado.png
+				Dinâmico (padrão)
+				Estático
+			Laboratório
+			
 	4.2 Configurando Grupos de Segurança de Rede
+		
 	4.3 Configurando o DNS do Azure
+#######################################################################################################################
 
+
+
+#######################################################################################################################
 Módulo 5
 Administração de Conectividade entre Sites
 	5.1 Configurando o Emparelhamento de VNet
@@ -135,33 +215,53 @@ Administração do Tráfego de Rede
 	6.1 Configurando o Azure Load Balancer
 	6.2 Configurando o Gateway de Aplicativo
 	6.3 Configurando o Observador de Rede
-	
+#######################################################################################################################
+
+
+
+#######################################################################################################################
 Módulo 7
 Administração do Azure
 	7.1 Configurando Contas de Armazenamento
 	7.2 Configurando Armazenamento de Blobs
 	7.3 Configurando a Segurança de Armazenamento
 	7.4 Configurando Arquivos do Azure
+#######################################################################################################################
 
+
+
+#######################################################################################################################
 Módulo 8
 Administração de Máquinas Virtuais do Azure
 	8.1 Configurando Máquinas Virtuais no Azure
 	8.2 Configurando a Disponibilidade da Máquina Virtual no Azure
 	8.3 Gerenciando Máquinas Virtuais no Azure
+#######################################################################################################################
 
+
+
+#######################################################################################################################
 Módulo  9
 Administração de Opções de Computação PaaS
 	9.1 Configurando Planos do Serviço de Aplicativo do Azure
 	9.2 Configurando os Serviços de Aplicativos do Azure
 	9.3 Configurando Instâncias de Cointêiner do Azure
-	
+#######################################################################################################################
+
+
+
+#######################################################################################################################
 Módulo 10
 Administração de Projeto de Dados
 	10.1 Configurando Backups de Arquivos e Pastas no Azure
 	10.2 Configurando Backups da Máquina Virtual no Azure
 	10.3 Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional
 	10.4 Associando Conceitos de Identidade, Rede e Armazenamento
+#######################################################################################################################
 
+
+
+#######################################################################################################################
 Módulo 11
 Administração de Monitoramente
 	11.1 Configurando o Azure Monitor
@@ -170,3 +270,4 @@ Administração de Monitoramente
 	11.4 Implementando Monitoramento no Azure
 	11.5 Simulando Preparatório para o Exame AZ-104
 	11.6 Avalie este Bootcamp 2025
+#######################################################################################################################

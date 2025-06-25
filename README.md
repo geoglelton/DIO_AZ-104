@@ -4,7 +4,7 @@ Diretório para documentação de aprendizado do bootcamp da AZ-104 oferecido pe
 
 
 
-##############################################################################
+#########
 Módulo 1
 Administração de Identidade
 	1.1 Introdução
@@ -63,11 +63,11 @@ Administração de Identidade
 				Verificar em images/01-05_Implementando o SSPR.png
 	1.3 Configurando Contas de Usuário e de Grupo
 		Apresentação do Laboratório com o conteúdo apresentado até o momento
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 2
 Administração de Governança e Conformidade
 	2.1 Configurando Assinaturas do Azure
@@ -135,10 +135,10 @@ Administração de Governança e Conformidade
 		
 	2.3 Configurando o Controle de Acesso Baseado em Função
 		* Laboratório
-##############################################################################
+#########
 
 
-##############################################################################
+#########
 Módulo 3
 Administração dos Recursos
 	3.1 Configurando Recursos do Azure com Ferramentas
@@ -157,10 +157,10 @@ Administração dos Recursos
 	
 	3.2 Configurando Recursos com Modelos ARM
 	Laboratório
-##############################################################################
+#########
 
 
-##############################################################################
+#########
 Módulo 4
 Administração de Rede Virtual
 	4.1 Configurando Redes Virtuais
@@ -217,11 +217,11 @@ Administração de Rede Virtual
 	4.3 Configurando o DNS do Azure
 		Laboratório com o conteúdo do módulo
 		
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 5
 Administração de Conectividade entre Sites
 	5.1 Configurando o Emparelhamento de VNet
@@ -252,11 +252,11 @@ Administração de Conectividade entre Sites
 		
 	5.2 Configurando Pontos de Extremimdade e Roteamente de Rede
 		Laboratório
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 6
 Administração do Tráfego de Rede
 	6.1 Configurando o Azure Load Balancer
@@ -295,11 +295,11 @@ Administração do Tráfego de Rede
 	6.3 Configurando o Observador de Rede
 		Laboratório
 	
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 7
 Administração do Azure
 	7.1 Configurando Contas de Armazenamento
@@ -378,11 +378,11 @@ Administração do Azure
 		
 		Laboratório
 	
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 8
 Administração de Máquinas Virtuais do Azure
 	8.1 Configurando Máquinas Virtuais no Azure
@@ -425,11 +425,11 @@ Administração de Máquinas Virtuais do Azure
 	
 	
 	
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo  9
 Administração de Opções de Computação PaaS
 	9.1 Configurando Planos do Serviço de Aplicativo do Azure
@@ -512,28 +512,93 @@ Administração de Opções de Computação PaaS
 		Verificar em images/09-09_AKS Terminologia.png
 		
 		Laboratório
-##############################################################################
+#########
 
 
 
-##############################################################################
+#########
 Módulo 10
 Administração de Projeto de Dados
 	10.1 Configurando Backups de Arquivos e Pastas no Azure
+		Implantqar o centro de backup do Azure
+			Verificar em images/10-1_Implantar o centro de backup do Azure.png
+			Painel de controle único para gerenciar backups em um ambiente grande e distribuído do Azure
+			Gerenciamente centrado na fonte de dados focado no que estiver fazendo backup
+			Experiências conectadas com integrações nativas que permitem o gerenciamento em escala
+		Configurar opções de backup do cofre dos Serviços de Recuperação
+			Verificar em images/10-2_Serviços de Recuperação.png
+		Gerenciar backups de arquivos e pastas locais
+			Verificar em images/10-3_Configurar backups locais.png
+			Criar o cofre dos Serviços de Recuperação
+			Baixar o agente e o arquivo de credencial
+			Instalar e registrar o agente
+			Configurar o backup
+		Gerenciar o Agente de Serviços de Recuperação do Microsoft Azure
+			Verificar em images/10-4_Agente de Serviços de Recuperação.png
+			
+		Laboratório
+		
 	10.2 Configurando Backups da Máquina Virtual no Azure
+		Proteger os dados das VMs
+			Instantâneos
+			Backup do Azure
+			Azure Site Recovery
+			Criar instantânesos de VMs
+			Verificar em images/10-5_Criar instantâneos de VMs.png
+				Usar instantâneos tirados como parte de um trabalho de backup
+				Configurar a retenção de restauração instantânea (1 a 5 dias)
+				Reduz os tempos de espera de recuperação - não esperar a conclusão da transferência de dados para o cofre
+			Verificar em images/10-6_Fazer backup de VMs.png
+			Restaurar máquinas virtuais
+			Servidor de Backup Azure
+				Comparar opções de backup
+				Verificar em images/10-7_Comparar opções de backup.png
+			Gerenciar exclusões temporárias
+			Verificar em images/10-8_Gerenciar exclusões temporárias.png
+				Também disponível para contêineres de contas de armazenamento e compartilhamentos de arquivos
+				Recuperar itens de backup que sofreram uma exclusão temporária usando uma operação "Restaurar"
+				Integrado nativamente em todos os cofres de serviços de recuperação
+				Os dados de backup são retidos por 14 dias adicionais*
+			Gerenciar exclusões temporárias
+			Verificar em images/10-9_Implementar o Site Recovery.png
+			Laboratório
+			
 	10.3 Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional
+	
 	10.4 Associando Conceitos de Identidade, Rede e Armazenamento
-##############################################################################
+	
+#########
 
 
 
-##############################################################################
+#########
 Módulo 11
 Administração de Monitoramente
 	11.1 Configurando o Azure Monitor
+		Recursos e Componentes Azure Monitor
+			Verificar em images/11-1_Recursos do Azure Monitor.png
+			Verificar em images/11-2_Componentes do Azure Monitor.png
+		Metricas e Logs
+			Métricas são valores númericos que descrevem algum aspecto de sistema em um momento no tempo. Elas são leves e podem dar suporte a cenários quase em tempo real.
+			Os logs contêm diferentes tipos de dados organizados em registros com diferentes conjuntos de propriedades para cada um.
+			Telemetria (eventos, rastreamentos) e dados de desempenho podem ser combinados para análise.
+			Verificar em images/11-3_Eventos do log de atividades.png
+		Laboratório
+		
 	11.2 Configurando Alertas do Azure
+		Verificar em images/11-4_Alertas do Azure Monitor.png
+		Laboratório
+		
 	11.3 Configurando a Análise de Logs
+		Criação do Log Analytics
+		Explorando Análise de Logs
+		Laboratório
+		
 	11.4 Implementando Monitoramento no Azure
+				
 	11.5 Simulando Preparatório para o Exame AZ-104
+				
 	11.6 Avalie este Bootcamp 2025
-##############################################################################
+		
+		
+#########
